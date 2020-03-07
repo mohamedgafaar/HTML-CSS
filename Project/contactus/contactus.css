@@ -1,0 +1,332 @@
+body {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Acme', sans-serif;
+    font-size: 115%;
+    background: url(back1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*main Div for the logo and nav bar*/
+
+#mainDiv {
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+/**/
+
+#bodyDiv {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*logo image css*/
+
+#logomain {
+    margin-left: -30%
+}
+
+/*nav bar css*/
+
+.snip1189 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.snip1189 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.snip1189 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 25px 1em;
+    padding: 0;
+}
+
+.snip1189 a {
+    padding: 0.5em 0.8em;
+    margin: 0.2em 0;
+    display: block;
+    position: relative;
+    color: black;
+    font-size: 128%;
+    text-decoration: none;
+}
+
+.snip1189 a:before, .snip1189 a:after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+}
+
+.snip1189 a:before {
+    left: 0;
+    top: 0;
+    border-left: 3px solid grey;
+    border-top: 3px solid grey;
+    -webkit-transform: translate(100%, 50%);
+    transform: translate(100%, 50%);
+}
+
+.snip1189 a:after {
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid grey;
+    border-bottom: 3px solid gray;
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+}
+
+.snip1189 a:hover, .snip1189 .current a {
+    color: #ffffff;
+}
+
+.snip1189 a:hover:before, .snip1189 .current a:before, .snip1189 a:hover:after, .snip1189 .current a:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+/*cerifecation image css*/
+
+#certifecation {
+    width: 150px;
+    height: 150px;
+}
+
+/* Form Css */
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#herewego {
+    margin: 78px 0 -23px 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 130%;
+}
+
+/*parents div*/
+
+#parent {
+    display: flex;
+}
+
+/*google map css div child for parent "flex display" */
+
+.mapouter {
+    flex: 1;
+    padding: 0;
+}
+
+#gmap_canvas {
+    width: 535px;
+    height: 508px;
+    margin: 29px 0 -1% 0;
+    border: 1px solid black;
+}
+
+.gmap_canvas {
+    background: none !important;
+}
+
+/*dic child for parent "flex display"*/
+
+.container {
+    flex: 1;
+}
+
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 73px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 553px;
+    height: 553px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: gray;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* 3 div section and branch and media*/
+
+#footerDiv {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#SectionDiv {
+    width: 155px;
+}
+
+#SectionDiv ul {
+    list-style-type: none;
+}
+
+#SectionDiv a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*first branch*/
+
+#branchDiv {
+    flex: 1;
+}
+
+#branchDiv li {
+    list-style-type: none;
+}
+
+#branchDiv a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*SEcond branch*/
+
+#branchDiv2 {
+    flex: 2;
+    margin-top: 48px;
+}
+
+#branchDiv2 li {
+    list-style-type: none;
+}
+
+#branchDiv2 a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#mediaDiv {
+    flex: 1;
+    margin-top: 49px;
+}
+
+#mediaDiv img {
+    height: 40px;
+    width: 40px;
+}
+
+#mediaDiv li {
+    float: left;
+    list-style: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+/*copyright*/
+
+#copyright {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+/*Tablet View 700 px*/
+
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 100%;
+    }
+    #logoMain {
+        display: none;
+    }
+    #mainDiv {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    /*nav bar css */
+    .snip1189 {
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 3% 24% -4% -3%;
+    }
+    .snip1189 li {
+        font-size: 101%;
+    }
+    .snip1189 a {
+        text-decoration: none;
+        color: black;
+    }
+    /* parebt Div with 2 child div for the mab and Form*/
+    #parent {
+        display: inline;
+    }
+    #contact {
+        margin: 0 auto;
+    }
+    .gmap_canvas {
+        margin-left: 6%;
+    }
+    /* media image*/
+    #mediaDiv img {
+        height: 30px;
+        width: 30px;
+    }
+}

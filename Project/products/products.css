@@ -1,0 +1,399 @@
+body {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Acme', sans-serif;
+  font-size: 115%;
+  background-image: url(back1.png);
+  background: url(back1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* css for nav Bar */
+
+#navDiv {
+  max-width: 1200px;
+  margin: -1% auto;
+  margin-right: 30%;
+  margin-bottom: -43px;
+}
+
+/* the main div css*/
+
+#mainDiv {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*div for the dots for slide show*/
+
+#dotsdiv {
+  position: relative;
+  top: -30px;
+  text-align: center;
+}
+
+/*nav bar css*/
+
+.snip1189 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.snip1189 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1189 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 25px 1em;
+  padding: 0;
+}
+
+.snip1189 a {
+  padding: 0.5em 0.8em;
+  margin: 0.2em 0;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 128%;
+}
+
+.snip1189 a:before, .snip1189 a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.snip1189 a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid grey;
+  border-top: 3px solid grey;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+
+.snip1189 a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid grey;
+  border-bottom: 3px solid grey;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.snip1189 a:hover, .snip1189 .current a {
+  color: #ffffff;
+}
+
+.snip1189 a:hover:before, .snip1189 .current a:before, .snip1189 a:hover:after, .snip1189 .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+/*copyright*/
+
+#copyright {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+/*End*/
+
+#footer {
+  padding: 10px;
+}
+
+/*slide show css*/
+
+/* Slideshow container */
+
+#wrap {
+  clear: both;
+}
+
+.myslides {
+  border: 1px solid black;
+}
+
+#container img {
+  width: 1200px;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Pragraph Divs* and imges */
+
+#pDiv {
+  display: flex;
+}
+
+#pDiv1 {
+  flex: 1;
+  padding: 5%;
+}
+
+#pDiv1 img {
+  margin-right: 17%;
+  padding: 1%;
+}
+
+#pDiv2 {
+  flex: 1;
+  padding: 5%;
+}
+
+#pDiv2 img {
+  padding: 5%;
+}
+
+#pDiv3 {
+  flex: 1;
+  padding: 5%;
+}
+
+#pDiv3 img {
+  padding: 1%;
+  margin-top: 32%;
+}
+
+/*Second Div with  pragrah for Gift Cards */
+
+#pSecDiv {
+  display: flex;
+}
+
+#giftCard {
+  margin-left: 5%;
+  margin-bottom: -2%;
+}
+
+#pSecDiv1 {
+  flex: 1;
+  padding: 5%;
+}
+
+#pSecDiv1 img {
+  margin: -14% 0 -5% 0;
+}
+
+#pSecDiv2 {
+  flex: 1;
+  padding: 5%;
+}
+
+#pSecDiv2 img {
+  margin: -14% 0 -5% 0;
+}
+
+#pSecDiv3 {
+  flex: 1;
+  padding: 5%;
+}
+
+#pSecDiv3 img {
+  margin: -14% 0 -5% 0;
+}
+
+/* 3 div section and branch and media*/
+
+#parent {
+  display: flex;
+}
+
+#SectionDiv {
+  width: 155px;
+}
+
+#sectionDiv li {
+  list-style: none;
+}
+
+#sectionDiv a {
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*first branch*/
+
+#branchDiv {
+  flex: 1;
+}
+
+#branchDiv a {
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*decond branch*/
+
+#branchDiv2 {
+  flex: 2;
+  margin-top: 48px;
+}
+
+#branchDiv2 a {
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#mediaDiv {
+  flex: 1;
+  margin-top: 48px;
+}
+
+#mediaDiv img {
+  height: 40px;
+  width: 40px;
+}
+
+#mediaDiv li {
+  float: left;
+  list-style: none;
+  padding: 2%;
+  margin: 1%;
+}
+
+/*End*/
+
+/*Media tablet 700px */
+
+@media screen and (max-width:700px) {
+  body {
+    font-size: 100%;
+  }
+  #logoMain {
+    display: none;
+  }
+  #mainDiv {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  /*image products div*/
+  #container img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+  /*nav bar css */
+  .snip1189 {
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 5% -43% 9% 7%;
+  }
+  .snip1189 li {
+    font-size: 101%;
+  }
+  .snip1189 a {
+    text-decoration: none;
+    color: black;
+  }
+  /*pragrah Div with images */
+  #pDiv {
+    display: inline;
+  }
+  #pDiv1 {
+    margin-bottom: -10%;
+  }
+  #pDiv1 img {
+    margin-top: -5%;
+  }
+  #pDiv2 {
+    margin: 2% 0 -7% 0;
+  }
+  #pDiv2 img {
+    margin-bottom: -3%;
+    height: 150;
+    width: 116px;
+  }
+  #pDiv3 img {
+    margin-top: -5%;
+  }
+  /* h2 h3*/
+  h2 h3 {
+    font-size: 50%;
+  }
+  /* gift card pragraph Div with image*/
+  #pSecDiv {
+    display: inline;
+    margin: 0 auto;
+  }
+  #pSecDiv1 img {
+    margin: -9% 0 -8% 0;
+  }
+  #pSecDiv2 {
+    margin-top: -10%;
+  }
+  #pSecDiv2 img {
+    margin: -9% 0 -8% 0;
+  }
+  #pSecDiv3 {
+    margin-top: -8%;
+    margin-bottom: 10%;
+  }
+  #pSecDiv3 img {
+    margin: -9% 0 -8% 0;
+  }
+  /*h3 production*/
+  #production {
+    margin-top: -10%;
+    margin-left: 4%;
+  }
+  /*marquee*/
+  #marquee {
+    margin-top: 5%;
+  }
+  #producimg {
+    width: 150px;
+    height: 150px;
+  }
+  #mediaDiv img {
+    height: 30px;
+    width: 30px;
+  }
+}

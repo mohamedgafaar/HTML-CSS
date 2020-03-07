@@ -1,0 +1,401 @@
+body {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Acme', sans-serif;
+    font-size: 115%;
+    background: url(back1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*main Div for the logo and nav bar*/
+
+#mainDiv {
+    max-width: 1200px;
+    margin: -1% auto;
+    margin-right: 20%;
+}
+
+/*logo image css*/
+
+#logomain {
+    margin-left: -30%
+}
+
+/*nav bar css*/
+
+.snip1189 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.snip1189 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.snip1189 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 25px 1em;
+    padding: 0;
+}
+
+.snip1189 a {
+    padding: 0.5em 0.8em;
+    margin: 0.2em 0;
+    display: block;
+    position: relative;
+    color: black;
+    font-size: 128%;
+    text-decoration: none;
+}
+
+.snip1189 a:before, .snip1189 a:after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+}
+
+.snip1189 a:before {
+    left: 0;
+    top: 0;
+    border-left: 3px solid grey;
+    border-top: 3px solid grey;
+    -webkit-transform: translate(100%, 50%);
+    transform: translate(100%, 50%);
+}
+
+.snip1189 a:after {
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid grey;
+    border-bottom: 3px solid gray;
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+}
+
+.snip1189 a:hover, .snip1189 .current a {
+    color: #ffffff;
+}
+
+.snip1189 a:hover:before, .snip1189 .current a:before, .snip1189 a:hover:after, .snip1189 .current a:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+/*font for the "quote"*/
+
+#pahfont {
+    font-family: 'Satisfy', cursive;
+    font-size: 160%;
+}
+
+/* div for the top image after bar code with the pragraph*/
+
+#pragraphDiv {
+    max-width: 1200px;
+    margin: -85px auto;
+    padding: 2%;
+}
+
+/* div for the gift image giftimgDiv*/
+
+#giftimgDiv img {
+    margin-top: -12%;
+}
+
+
+
+/*cerifecation image css*/
+
+#certifecation {
+    width: 150px;
+    height: 150px;
+}
+
+/* 3 div section and branch and media*/
+
+#parent {
+    display: flex;
+}
+
+#SectionDiv {
+    width: 155px;
+}
+
+#sectionDiv li {
+    list-style: none;
+}
+
+#sectionDiv a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*first branch*/
+
+#branchDiv {
+    flex: 1;
+}
+
+#branchDiv a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*SEcond branch*/
+
+#branchDiv2 {
+    flex: 2;
+    margin-top: 48px;
+}
+
+#branchDiv2 a {
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#mediaDiv {
+    flex: 1;
+    margin-top: 49px;
+}
+
+#mediaDiv img {
+    height: 40px;
+    width: 40px;
+}
+
+#mediaDiv li {
+    float: left;
+    list-style: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+/*main page image*/
+
+#img6 {
+    vertical-align: middle;
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    margin-top: 4px;
+    opacity: 1;
+}
+
+/*slide main page css*/
+
+.mySlides {
+    display: none;
+    max-width: 1200px;
+}
+
+/*pragraph div*/
+
+#pDiv {
+    display: flex;
+    margin-bottom: 12%;
+}
+
+#pDiv1 {
+    flex: 1;
+    padding: 1%;
+}
+
+#pDiv2 {
+    flex: 1;
+    padding: 1%;
+    margin-top: 4%;
+}
+
+#pDiv3 {
+    flex: 1;
+    padding: 1%;
+}
+
+/*Div for gift image giftimgDiv*/
+
+#ourcustomer {
+    margin: -9% 0% 2% 1%;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container img {
+    width: 1200px;
+    height: 670px;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+    background-color: white;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/*copyright*/
+
+#copyright {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+/*Tablet View 700 px*/
+
+@media screen and (max-width:700px) {
+    body {
+        font-size: 100%;
+    }
+    #pahfont {
+        font-family: 'Satisfy', cursive;
+        font-size: 100%;
+    }
+    #logoMain {
+        display: none;
+    }
+    #mainDiv {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .snip1189 {
+        letter-spacing: 0.5px;
+    }
+    .snip1189 li {
+        float: left;
+        padding: 0;
+        font-size: 101%;
+    }
+    .snip1189 a {
+        text-decoration: none;
+        color: black;
+    }
+    #pahfont {
+        font-family: 'Satisfy', cursive;
+        font-size: 100%;
+    }
+    #pragraphDiv {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    #img6 {
+        width: 100%;
+        height: 158px;
+        margin: 0 auto;
+        padding: 0%;
+    }
+    #mediaDiv img {
+        height: 30px;
+        width: 30px;
+        margin: 0 auto;
+    }
+    /*pragrah Div {*/
+    #pDiv {
+        display: inline;
+        margin: 0 auto;
+    }
+    #pDiv1 {
+        margin-bottom: -10%;
+    }
+    #coffeimgDiv img {
+        margin-top: 2%;
+    }
+    /*giftCard Div*/
+    #giftimgDiv img {
+        margin: -8% 0 2% 0;
+    }
+    #pDiv2 {
+        margin-bottom: -15%;
+    }
+    #pDiv3 {
+        margin-top: 12%;
+    }
+    .slideshow-container img {
+        width: 622px;
+        height: 373px;
+    }
+    #ourcustomer {
+        margin: 5% 0 4% 0;
+    }
+}
+
+/*end*/
